@@ -1,0 +1,37 @@
+[07-Jul-2023 12:38:01 UTC] PHP Warning:  require(/home/swedishk/public_html/app_laravel/vendor/composer/../torann/geoip/src/helpers.php): Failed to open stream: No such file or directory in /home/swedishk/public_html/app_laravel/vendor/composer/autoload_real.php on line 41
+[07-Jul-2023 12:38:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/swedishk/public_html/app_laravel/vendor/composer/../torann/geoip/src/helpers.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/swedishk/public_html/app_laravel/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/swedishk/public_html/app_laravel/vendor/composer/autoload_real.php(45): ComposerAutoloaderInit40cdd32326efb7c643f15268c9d0db22::{closure}('1e298922c3e2134...', '/home/swedishk/...')
+#1 /home/swedishk/public_html/app_laravel/vendor/autoload.php(25): ComposerAutoloaderInit40cdd32326efb7c643f15268c9d0db22::getLoader()
+#2 /home/swedishk/public_html/app_laravel/public/index.php(34): require('/home/swedishk/...')
+#3 {main}
+  thrown in /home/swedishk/public_html/app_laravel/vendor/composer/autoload_real.php on line 41
+[07-Jul-2023 15:04:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Illuminate\Contracts\Debug\ExceptionHandler" not found in /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php:46
+Stack trace:
+#0 /home/swedishk/public_html/app_laravel/vendor/composer/ClassLoader.php(578): include()
+#1 /home/swedishk/public_html/app_laravel/vendor/composer/ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('/home/swedishk/...')
+#2 /home/swedishk/public_html/app_laravel/app/Exceptions/Handler.php(8): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Foun...')
+#3 /home/swedishk/public_html/app_laravel/vendor/composer/ClassLoader.php(578): include('/home/swedishk/...')
+#4 /home/swedishk/public_html/app_laravel/vendor/composer/ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('/home/swedishk/...')
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#6 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct('App\\Exceptions\\...')
+#7 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#8 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve('App\\Exceptions\\...', Array, false)
+#9 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Exceptions\\...', Array, false)
+#10 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(885): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#11 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build(Object(Closure))
+#12 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#13 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#14 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#15 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(299): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#16 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#17 /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(266): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Error))
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Error))
+#19 {main}
+  thrown in /home/swedishk/public_html/app_laravel/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php on line 46
+[25-Jul-2023 03:33:17 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\controladorUsuarios, because the name is already in use in /home/swedishk/public_html/app_laravel/app/Http/Controllers/controladorEventos.php on line 0
+[25-Jul-2023 03:34:28 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\controladorUsuarios, because the name is already in use in /home/swedishk/public_html/app_laravel/app/Http/Controllers/controladorEventos.php on line 0
+[25-Jul-2023 03:34:35 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\controladorUsuarios, because the name is already in use in /home/swedishk/public_html/app_laravel/app/Http/Controllers/controladorEventos.php on line 0
+[25-Jul-2023 03:35:00 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\controladorUsuarios, because the name is already in use in /home/swedishk/public_html/app_laravel/app/Http/Controllers/controladorEventos.php on line 0
+[25-Jul-2023 03:35:25 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\controladorUsuarios, because the name is already in use in /home/swedishk/public_html/app_laravel/app/Http/Controllers/controladorEventos.php on line 0
+[25-Jul-2023 03:36:49 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\controladorUsuarios, because the name is already in use in /home/swedishk/public_html/app_laravel/app/Http/Controllers/controladorEventos.php on line 0
